@@ -8,7 +8,7 @@ To categorise the countries using some socio-economic and health factors that de
 The model created will suggest the top 10 countries which need the NGO's help the most. This will help the NGO to decide where to use their money and resoures.
 
 Solution Approach- Started with data cleaning, then a detailed analysis of the dataset to find the co-relation between different columns of the dataset. Analysis is done by plotting scatterplots and heatmaps.
-Then divide the countries into different clusters using KMeans algorithm. 
+Based on the socio-economic and health factors mentioned in the dataset, divide the countries into different clusters using KMeans algorithm. 
 One of the clusters will have the countries in the most dire need of help from the NGO. This will be the cluster with countries having least GDP per person, least income, least health spending, maximum inflation and maximum child mortality.
 
 Result- According to the model created, the 10 countries which need the NGO's help the most are-
