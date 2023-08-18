@@ -7,12 +7,14 @@ Business Goal-
 To categorise the countries using some socio-economic and health factors that determine overall development of the country. 
 The model created will suggest the top 10 countries which need the NGO's help the most. This will help the NGO to decide where to use their money and resoures.
 
-Solution Approach- First I have done data cleaning, then a detailed analysis of the data to find the co-relation between different columns of the dataset. Analysis is done by plotting scatterplots, heatmaps.
-Then Divide the countries into different clusters based on the features provided in the dataset. 
-One of the clusters will have the countries in the most dire need of help from the NGO. This will be the cluster with countries having least GDPP, leave income, max inflation etc.
+Solution Approach- Started with data cleaning, then a detailed analysis of the dataset to find the co-relation between different columns of the dataset. Analysis is done by plotting scatterplots and heatmaps.
+
+Then divide the countries into different clusters using KMeans algorithm. 
+
+One of the clusters will have the countries in the most dire need of help from the NGO. This will be the cluster with countries having least GDPP, leave income, max inflation.
 
 Result- According to the model created, the 10 countries which need the NGO's help the most are-
-Myanmar,Burundi,Afghanistan,Nepal,Liberia,Malawi,Comoros,Gambia,Guinea,Kenya
+Myanmar,Burundi,Afghanistan,Nepal,Liberia,Malawi,Comoros,Gambia,Guinea and Kenya
 
 Detailed step by step solution desciption-
 167 countries are decribed using the following columns-
@@ -46,3 +48,5 @@ Steps followed-
 15. Sort the cluster 1 according to lowest income,lowest GDP, highest inflation,highest fertility,lowest export,lowest imports,highest inflation.
 16. After sorting, get the top 10 counries of this cluster.
       These are the top 10 countries in the most dire need to help from the NGO.
+According to the model created, the 10 countries which need the NGO's help the most are-
+Myanmar,Burundi,Afghanistan,Nepal,Liberia,Malawi,Comoros,Gambia,Guinea and Kenya
