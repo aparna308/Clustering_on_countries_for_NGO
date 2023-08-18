@@ -11,6 +11,18 @@ Solution Approach- First I have done data cleaning, then a detailed analysis of 
 Then Divide the countries into different clusters based on the features provided in the dataset. 
 One of the clusters will have the countries in the most dire need of help from the NGO. This will be the cluster with countries having least GDPP, leave income, max inflation etc.
 
+Result- According to the model created, the 10 countries which need the NGO's help the most are-
+Myanmar
+Burundi
+Afghanistan
+Nepal
+Liberia
+Malawi
+Comoros
+Gambia
+Guinea
+Kenya
+
 Detailed step by step solution desciption-
 167 countries are decribed using the following columns-
 country        Name of the country
