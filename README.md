@@ -9,23 +9,34 @@ The model created will suggest the top 10 countries which need the NGO's help th
 
 Solution Approach- Started with data cleaning, then a detailed analysis of the dataset to find the co-relation between different columns of the dataset. Analysis is done by plotting scatterplots and heatmaps.
 Then divide the countries into different clusters using KMeans algorithm. 
-One of the clusters will have the countries in the most dire need of help from the NGO. This will be the cluster with countries having least GDP per person, least income,least health speding, maximum inflation and maximum child mortality.
+One of the clusters will have the countries in the most dire need of help from the NGO. This will be the cluster with countries having least GDP per person, least income, least health spending, maximum inflation and maximum child mortality.
 
 Result- According to the model created, the 10 countries which need the NGO's help the most are-
 Myanmar,Burundi,Afghanistan,Nepal,Liberia,Malawi,Comoros,Gambia,Guinea and Kenya
 
 Detailed step by step solution desciption-
 167 countries are decribed using the following columns-
+
 country        Name of the country
+
 child_mort   Death of children under 5 years of age per 1000 live births
+
 exports         Exports of goods and services. Given as %age of the Total GDP
+
 health          Total health spending as %age of Total GDP
+
 imports        Imports of goods and services. Given as %age of the Total GDP
+
 Income        Net income per person
+
 Inflation      The measurement of the annual growth rate of the Total GDP
-life_expec    The average number of years a new born child would live if the current mortality patterns are to remain the same
+
+life_expec    The average number of years a new born child would live if the current mortality patterns are to remain the same.
+
 total_fer       The number of children that would be born to each woman if the current age-fertility rates remain the same.
+
 gdpp            The GDP per capita. Calculated as the Total GDP divided by the total population.
+
 Steps followed-
 1. Import the required libraries and load the dataset.
 2. Remove rows with null values and  duplicate rows.
