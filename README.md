@@ -17,25 +17,25 @@ Myanmar,Burundi,Afghanistan,Nepal,Liberia,Malawi,Comoros,Gambia,Guinea and Kenya
 Detailed step by step solution desciption-
 167 countries are decribed using the following columns-
 
-country        Name of the country
+country - Name of the country
 
-child_mort   Death of children under 5 years of age per 1000 live births
+child_mort - Death of children under 5 years of age per 1000 live births
 
-exports         Exports of goods and services. Given as %age of the Total GDP
+exports - Exports of goods and services. Given as %age of the Total GDP
 
-health          Total health spending as %age of Total GDP
+health - Total health spending as %age of Total GDP
 
-imports        Imports of goods and services. Given as %age of the Total GDP
+imports - Imports of goods and services. Given as %age of the Total GDP
 
-Income        Net income per person
+Income - Net income per person
 
-Inflation      The measurement of the annual growth rate of the Total GDP
+Inflation - The measurement of the annual growth rate of the Total GDP
 
-life_expec    The average number of years a new born child would live if the current mortality patterns are to remain the same.
+life_expec - The average number of years a new born child would live if the current mortality patterns are to remain the same.
 
-total_fer       The number of children that would be born to each woman if the current age-fertility rates remain the same.
+total_fer - The number of children that would be born to each woman if the current age-fertility rates remain the same.
 
-gdpp            The GDP per capita. Calculated as the Total GDP divided by the total population.
+gdpp - The GDP per capita. Calculated as the Total GDP divided by the total population.
 
 Steps followed-
 1. Import the required libraries and load the dataset.
